@@ -1,0 +1,11 @@
+{
+  "source": "https://github.com/sarulab-speech/SpatialCLAP",
+  "source_checkpoint_sha256": "e48f5eecbe9e89589eb80ce83ddae09d6277a4a5ff52a78dd98c0401d6ece71d",
+  "parameters": 1095616,
+  "state_tensor_count": 40,
+  "official_vs_packaged_max_l2": 4.4434324308895157e-07,
+  "checkpoint_bytes": 4401115,
+  "note": "Exact spatial submodule weights, no training or parameter conversion.",
+  "smoke_fixture_source": "Deterministic synthetic sine mixtures; no dataset media.",
+  "synthetic_official_vs_packaged_max_l2": 3.76111927380407e-07
+}

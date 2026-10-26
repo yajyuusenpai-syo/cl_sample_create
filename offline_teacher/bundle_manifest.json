@@ -1,0 +1,20 @@
+{
+  "target": "Linux x86_64 CPython3.10 CUDA13.0 glibc>=2.28",
+  "files": {
+    "README.md": "9baf8d0ba1e3f79c35ea7f99f8ecc54bd76e47d55bd48fb0b1ffe2d1046c6b65",
+    "spatial_teacher.py": "1f379dd891171aca15db65c236f8c96aaf85ed0fa8ce985342fe467f46f91870",
+    "check_teacher.py": "11b25a99f4651c07b3cc00cb44f2cf3b12089726a3e169f7003db9cb8e450622",
+    "extract_features.py": "0617d3b6adc93a81919ab84b418c625733681bb1021281aba512cf0bb4393892",
+    "install_offline.py": "e0d00f33f1af0a7b854384b6a47bb8c3dd2a101f7aa31bf7983518cc50563352",
+    "smoke_fixture.npz": "05e904c5111a4478951b5a57faceeaabfcf05a9cb8db3acb1837b2775182243e",
+    "teacher_provenance.json": "cbc66dc28131a9758204d93af0aaaeac8fdbb3aff53a30922db68accb1abcbf4",
+    "preparation_cpu_check.json": "bcc31da9f613ae6667c92695821a6cd64f57c169f1b617070991dd8c83acfa72",
+    "weights/spatial_encoder.pt": "77d197719c3f2db34e305f5942ff72db41ab3bbe551f2783ff8b4b7fa8494e87",
+    "spatial_pipeline.py": "4c4db1b661f1c4dac99d1c89c126fc5e3dc849b46344555b5937c8caea792e4d",
+    "filter_spatial_audio.py": "5bf325b17b9a40cd600fb1a9e7a7d6ccd7488bbb26941d173d1350b8093d6981",
+    "infer_spatial_features.py": "ffb511b0483852104ee9d8c43592b5fe3ca9351eb0aecc27ab92b40788a89427",
+    "evaluate_teacher_similarity.py": "62c48ee29d65a255280dcdba0974cd6e3b99564f1daa34511eec4a1e1cc57c73",
+    "pipeline_validation.json": "67ac1561abbb60f3df9b6fc0be25a10a4506a31cdbd78f6db415e7eaafe8216f"
+  },
+  "verification": "Prepared on Windows; CPU model/reference check passed. Target Linux GPU check runs during offline install."
+}

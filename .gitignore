@@ -1,0 +1,37 @@
+# Local environments and generated data
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+running_log/
+audio_cache/
+outputs/
+output_*/
+/weights/
+/tools/
+/assets_manifest.json
+/deployment_manifest.json
+offline_teacher/installation_check.json
+# Offline wheelhouse is restored from the committed hash manifest.
+pkgs/*.whl
+pkgs/*.partial
+pkgs/*.part
+pkgs/*.tmp
+pkgs/*.tail
+pkgs/*.headers
+pkgs/download_plan.json
+# Private media and generated teacher targets must never be published.
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wav
+*.flac
+*.pt
+!offline_teacher/weights/spatial_encoder.pt
+*.npz
+!offline_teacher/smoke_fixture.npz
+*.npy
+*.log

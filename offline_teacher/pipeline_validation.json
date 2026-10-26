@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "unit_tests": 7,
+  "integration": {
+    "status": "passed",
+    "screened_videos": 4,
+    "checked_pt_files": 12,
+    "exported_sample_clips": 5,
+    "notes": [
+      "Native mono rejected without upmix",
+      "Interior centered chunk preserves its timeline with zero features",
+      "All three transforms numerically match direct teacher calls",
+      "TXT priority and both default output paths verified",
+      "Padding, overwrite protection, whole-video cap and metadata verified"
+    ]
+  },
+  "real_videos": 3,
+  "real_pt_files": 9,
+  "real_valid_windows": 24,
+  "preparation_device": "CPU",
+  "preparation_torch": "2.7.1+cpu",
+  "linux_cuda_test": "Not executed on Windows; run offline_teacher/install_offline.py on target machine."
+}
